@@ -12,12 +12,15 @@ body {
   margin: 20px 10px;
 }
 
+.cart-item .left-block{
+  padding-top:4px;
+}
 .cart-item .right-block {
   padding: 0 20px;
 }
 
 .cart-item-actions {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .action-icons {
@@ -28,4 +31,9 @@ body {
 
 .action-icons:hover {
   cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
 }
